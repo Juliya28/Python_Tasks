@@ -7,13 +7,13 @@ from random import randint
 def list(size, m, n):
     return [randint(m, n) for i in range(size)]
 
-def unic_value(list):
+def value(list):
     return [i for i in set(list)]
 
-size = 10
+size = int(input('Введите число, которое будет обозначать количество элементов списка: '))
 m = 1
 n = 10
 
 origin = list(size, m, n)
 print(origin, '\n')
-print(unic_value(origin), '\n')
+print(value(origin), '\n')
