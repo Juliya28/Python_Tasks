@@ -7,7 +7,7 @@
 # Входные данные:
 # 12W1B12W3B24W1B14W
 
-with open('41_RLE_decoded.txt', 'r') as data:
+with open('task_41_RLE_decoded.txt', 'r') as data:
     my_File = data.read()
 
 def rle_encode(data):
@@ -32,7 +32,7 @@ encoding = rle_encode(my_File)
 print(f'{encoding}\n')
 
 
-with open('41_RLE_encoded.txt', 'r') as data:
+with open('task_41_RLE_encoded.txt', 'r') as data:
     my_File2 = data.read()
 
 def rle_decode(data): 
