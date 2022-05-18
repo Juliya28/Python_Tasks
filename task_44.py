@@ -6,7 +6,7 @@ n = int(input('Введите количество членов последов
 print('--------------------')
 
 example = [3**x if x % 2 == 0 else (-3)**x for x in range(n)] # первый вариант
-print(example)
+print(example, '\n')
 
 
 example = [x for x in range(n)]
